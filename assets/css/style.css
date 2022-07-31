@@ -1,40 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Open+Sans:wght@400;500;700&family=Roboto+Condensed:wght@300;400;700&family=Share+Tech+Mono&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 body{
-    width: 1920;
-    height: 1080;
-    
+    display: flex;
+    height: 100vh;
+    border: 2px red solid;
 }
 
 #container{
     display: flex;
     flex-direction: column;
-    width: 50%;
-    height: 100vh;
-    border: 2px red solid;
+    border: 5px blue solid;
+    flex-basis: 50%;
     background-color: black;
     color: white;
-
-    
+    font-family: 'Inter', sans-serif;
+  
 }
+#container .container-content{
+    border: 5px pink solid;
+    margin: 99px 114px 352px 125px;
 
-#container .home{
+}
+aside{
     display: flex;
-    justify-content: space-between;
-    text-align: center;
-    border: 2px red solid ;
-    padding: 10px;
+    flex-direction: column;
+    border: 5px green solid;
+    flex-basis: 50%;
+    background-color: #232323;
+    color: white;
 }
-
-#container .home-list{
-    list-style: none;
-    display: flex;
-    gap: 4rem;
-
-}
-
 
