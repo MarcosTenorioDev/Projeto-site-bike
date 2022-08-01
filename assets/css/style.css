@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Open+Sans:wght@400;500;700&family=Roboto+Condensed:wght@300;400;700&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Open+Sans:wght@600;700;800&family=Roboto+Condensed:wght@300;400;700&family=Share+Tech+Mono&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,23 +10,83 @@ body{
     display: flex;
     height: 100vh;
     border: 2px red solid;
+    
+    font-family: 'Inter', sans-serif;
 }
 
-#container{
+#container-left{
     display: flex;
     flex-direction: column;
     border: 5px blue solid;
     flex-basis: 50%;
-    background-color: black;
-    color: white;
-    font-family: 'Inter', sans-serif;
-  
-}
-#container .container-content{
-    border: 5px pink solid;
-    margin: 99px 114px 352px 125px;
+    background-color: #000000;
+    color: #ffffff;
 
 }
+
+.container-content{
+    font-weight: 700;
+
+}
+.container-content .logo{
+
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.container-content .title{
+    font-size: 60px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 572px;
+
+
+}
+
+.container-content .title span{
+    font-size: 40px;
+    color: #FC013E;
+
+}
+
+.container-content .content{
+    font-size: 20px;
+    line-height: 24.2px;
+}
+
+.container-content .content span{
+    font-size: 30px;
+    line-height: 36.31;
+}
+
+.container-btn a{
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container-btn .btn-bg{
+    padding: 17px 27px;
+    background-color: #EC013A;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 aside{
     display: flex;
     flex-direction: column;
