@@ -5,24 +5,33 @@
     box-sizing: border-box;
 }
 
+html{
+    background-color: #000000;
+    
+}
 
 body{
     display: flex;
     height: 100vh;
-    border: 2px red solid;
-    
-    background-color: #000000;
     font-family: 'Inter', sans-serif;
+    position: relative;
+
+}
+
+.background{
+    position: absolute;
+    z-index: -1;
+}
+.background img{
+    height: 100vh;
 }
 
 #container-left{
     display: flex;
     flex-direction: column;
     gap:82.4px;
-    border: 5px blue solid;
     flex-basis: 50%;
     color: #ffffff;
-    
     
 }
 
@@ -94,21 +103,23 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-aside{
+#container-right{
     display: flex;
     flex-direction: column;
-    border: 5px green solid;
     flex-basis: 50%;
     background-color: #232323;
     color: white;
+}
+
+.navbar-content{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 51.6px;
+
+}
+.navbar-content li a{
+    color: #ffffff;
+    text-decoration: none;
 }
 
