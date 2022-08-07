@@ -37,7 +37,7 @@ body{
     font-weight: 700;
     display: flex;
     flex-direction: column;
-    gap: 41px;
+    gap: 25px;
     margin: 79.2px 86.4px 0px 85.6px;
 }
 
@@ -94,6 +94,19 @@ body{
     background-color: #EC013A;
     border-radius: 5px;
     border: 1px solid #ffffff;
+}
+
+.container-navegation ul{    
+    display: flex;
+    gap: 28.8px;
+    font-size: 46px;
+    margin: 0 20px 0 114px;
+}
+.container-navegation li{
+    list-style: none;
+}
+.container-navegation a{
+    color: #000000;
 }
 
 #container-right{
